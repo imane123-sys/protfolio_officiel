@@ -123,62 +123,18 @@ export const Contact = ({ onCopyToast }) => {
 
         {/* Contact Form & Information Details */}
         <div className="contact-form-grid">
-          {/* Left Info Column */}
-          <div className="flex flex-col justify-between">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 text-indigo-600 font-semibold text-xs mb-3 uppercase tracking-wider">
+          <div>
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 font-semibold text-xs mb-3 uppercase tracking-wider">
                 <MessageSquare size={14} />
                 <span>Formulaire de Contact</span>
               </div>
 
-              <h2 className="section-main-title mb-4">
+              <h2 className="section-main-title mb-2 text-center">
                 Envoyez-moi un <span className="gradient-text">Message</span>
               </h2>
-
-              <p className="text-slate-600 text-base leading-relaxed mb-6">
-                Vous avez un poste à pourvoir, un projet à concrétiser ou une question technique ? N'hésitez pas à m'écrire, je vous répondrai dans les plus brefs délais.
-              </p>
-
-              <div className="space-y-4">
-                <div className="flex items-center gap-3 text-sm text-slate-700">
-                  <div className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
-                    <MapPin size={17} />
-                  </div>
-                  <div>
-                    <span className="font-bold">Localisation : </span>
-                    <span>{contactInfo.city}, {contactInfo.country}</span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 text-sm text-slate-700">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
-                    <CheckCircle2 size={17} />
-                  </div>
-                  <div>
-                    <span className="font-bold">Disponibilité : </span>
-                    <span className="text-emerald-700 font-semibold">{contactInfo.availability}</span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 text-sm text-slate-700">
-                  <div className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center">
-                    <Sparkles size={17} />
-                  </div>
-                  <div>
-                    <span className="font-bold">Contrats recherchés : </span>
-                    <span>{contactInfo.contractTypes}</span>
-                  </div>
-                </div>
-              </div>
             </div>
 
-            <div className="mt-8 p-4 rounded-2xl bg-slate-50 border border-slate-100 text-xs text-slate-500">
-              ⚡ Développeuse Full Stack passionnée • React • Java 21 • Spring Boot • MySQL • Docker
-            </div>
-          </div>
-
-          {/* Right Message Form */}
-          <div>
             {submitted ? (
               <div className="p-8 rounded-2xl bg-emerald-50 border border-emerald-200 text-center flex flex-col items-center justify-center h-full">
                 <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mb-4">

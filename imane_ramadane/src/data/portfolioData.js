@@ -17,22 +17,25 @@ export const portfolioData = {
     linkedinUsername: "in/imane-ramadane",
     cvPdfUrl: "/Ramadane-Imane-CV1.pdf",
     cvFileName: "Ramadane-Imane-CV1.pdf",
-    tagline: "Je conçois des applications web performantes, sécurisées et intuitives avec React & Spring Boot.",
+    tagline:
+      "Je conçois des applications web performantes, sécurisées et intuitives avec React & Spring Boot.",
     bio: "Développeuse web full-stack, spécialisée dans la création d’applications modernes avec React, Spring Boot et MySQL. Motivée, autonome et curieuse, je recherche une opportunité pour apporter de la valeur et évoluer professionnellement.",
     extendedBio: [
-      "Je suis Ramadane Imane, Développeuse Web Full-Stack passionnée par la création d'architectures backend robustes et d'interfaces web fluides et modernes.",
-      "Spécialisée dans l'écosystème Java / Spring Boot pour le backend et React.js pour le frontend, j'accorde une importance primordiale à la qualité logicielle (Clean Architecture, Clean Code), à la sécurité des API (Spring Security, JWT) et à l'automatisation des déploiements (Docker, GitHub Actions CI/CD).",
-      "Motivée, autonome et rigoureuse, je suis constamment en quête d'apprentissage et prête à relever de nouveaux défis au sein d'une équipe dynamique."
+      "Je suis Développeuse Full Stack React & Spring Boot, je conçois des applications web complètes, de l'interface dynamique à l'architecture back-end sécurisée. Propulsée par des projets concrets, j’allie code propre et performance. Prête à intégrer votre équipe pour transformer vos besoins techniques en solutions prêtes pour la production !",
     ],
     status: "Disponible pour opportunités (CDI, Stage, Alternance)",
-    statusShort: "Prête pour de nouveaux défis"
+    statusShort: "Prête pour de nouveaux défis",
   },
 
   stats: [
     { label: "Spécialisation", value: "Spring Boot & React", icon: "Layers" },
     { label: "Qualité & Tests", value: "JUnit & CI/CD", icon: "ShieldCheck" },
-    { label: "Bases de Données", value: "MySQL, Redis & MongoDB", icon: "Database" },
-    { label: "Conteneurisation", value: "Docker & DevOps", icon: "Boxes" }
+    {
+      label: "Bases de Données",
+      value: "MySQL, Redis & MongoDB",
+      icon: "Database",
+    },
+    { label: "Conteneurisation", value: "Docker & DevOps", icon: "Boxes" },
   ],
 
   codeSnippet: {
@@ -47,40 +50,40 @@ export const portfolioData = {
   qualite: ["JUnit 5", "Clean Architecture", "Flyway"],
   passion: "Concevoir des architectures fiables & scalables",
   disponible: true
-};`
+};`,
   },
 
   skillsCategories: [
     {
       id: "all",
       name: "Toutes les compétences",
-      nameEn: "All Skills"
+      nameEn: "All Skills",
     },
     {
       id: "backend",
       name: "Backend & APIs",
-      nameEn: "Backend & APIs"
+      nameEn: "Backend & APIs",
     },
     {
       id: "frontend",
       name: "Frontend & UI",
-      nameEn: "Frontend & UI"
+      nameEn: "Frontend & UI",
     },
     {
       id: "database",
       name: "Bases de Données",
-      nameEn: "Databases"
+      nameEn: "Databases",
     },
     {
       id: "devops",
       name: "DevOps & Outils",
-      nameEn: "DevOps & Tools"
+      nameEn: "DevOps & Tools",
     },
     {
       id: "management",
       name: "Conception & Méthodes",
-      nameEn: "Design & Methods"
-    }
+      nameEn: "Design & Methods",
+    },
   ],
 
   skills: [
@@ -93,7 +96,8 @@ export const portfolioData = {
       bgSoft: "#FEF2F2",
       iconType: "java",
       featured: true,
-      description: "Programmation orientée objet, Streams API, Concurrency, Record classes"
+      description:
+        "Programmation orientée objet, Streams API, Concurrency, Record classes",
     },
     {
       name: "Spring Boot",
@@ -103,7 +107,8 @@ export const portfolioData = {
       bgSoft: "#F0FDF4",
       iconType: "spring",
       featured: true,
-      description: "Architecture REST, Microservices, Spring Data JPA, Injection de dépendances"
+      description:
+        "Architecture REST, Microservices, Spring Data JPA, Injection de dépendances",
     },
     {
       name: "Spring Security & JWT",
@@ -113,7 +118,8 @@ export const portfolioData = {
       bgSoft: "#EEF2FF",
       iconType: "security",
       featured: true,
-      description: "Authentification stateless JWT, filtres de sécurité, contrôle d'accès par rôles"
+      description:
+        "Authentification stateless JWT, filtres de sécurité, contrôle d'accès par rôles",
     },
     {
       name: "API REST",
@@ -123,7 +129,8 @@ export const portfolioData = {
       bgSoft: "#F0F9FF",
       iconType: "api",
       featured: true,
-      description: "Conception de contrats API normalisés, gestion des exceptions, DTOs & MapStruct"
+      description:
+        "Conception de contrats API normalisés, gestion des exceptions, DTOs & MapStruct",
     },
     {
       name: "JPA / Hibernate",
@@ -132,7 +139,8 @@ export const portfolioData = {
       color: "#B45309",
       bgSoft: "#FEF3C7",
       iconType: "orm",
-      description: "Mapping objet-relationnel, requêtes JPQL, optimisation des relations"
+      description:
+        "Mapping objet-relationnel, requêtes JPQL, optimisation des relations",
     },
     {
       name: "Flyway & MapStruct",
@@ -141,7 +149,8 @@ export const portfolioData = {
       color: "#D97706",
       bgSoft: "#FFFBEB",
       iconType: "tool",
-      description: "Gestion des migrations de schémas BDD & mapping déclaratif haute performance"
+      description:
+        "Gestion des migrations de schémas BDD & mapping déclaratif haute performance",
     },
 
     // Frontend
@@ -153,7 +162,8 @@ export const portfolioData = {
       bgSoft: "#F0F9FF",
       iconType: "react",
       featured: true,
-      description: "Composants fonctionnels, Hooks personnalisés, State Management, API integration"
+      description:
+        "Composants fonctionnels, Hooks personnalisés, State Management, API integration",
     },
     {
       name: "JavaScript",
@@ -163,7 +173,8 @@ export const portfolioData = {
       bgSoft: "#FEFCE8",
       iconType: "javascript",
       featured: true,
-      description: "Async/Await, Promises, DOM Manipulation, Modular JS, Clean Code"
+      description:
+        "Async/Await, Promises, DOM Manipulation, Modular JS, Clean Code",
     },
     {
       name: "Bootstrap & CSS3",
@@ -173,7 +184,8 @@ export const portfolioData = {
       bgSoft: "#FAF5FF",
       iconType: "bootstrap",
       featured: true,
-      description: "Interfaces responsives, Flexbox, Grid, animations CSS et design adapté mobile"
+      description:
+        "Interfaces responsives, Flexbox, Grid, animations CSS et design adapté mobile",
     },
 
     // Databases
@@ -185,7 +197,8 @@ export const portfolioData = {
       bgSoft: "#ECFEFF",
       iconType: "mysql",
       featured: true,
-      description: "Modélisation relationnelle, indexation, requêtes complexes, intégrité référentielle"
+      description:
+        "Modélisation relationnelle, indexation, requêtes complexes, intégrité référentielle",
     },
     {
       name: "MongoDB",
@@ -194,7 +207,8 @@ export const portfolioData = {
       color: "#16A34A",
       bgSoft: "#F0FDF4",
       iconType: "mongodb",
-      description: "Documents JSON/BSON, collections dynamiques, requêtes d'agrégation"
+      description:
+        "Documents JSON/BSON, collections dynamiques, requêtes d'agrégation",
     },
     {
       name: "Redis",
@@ -203,7 +217,8 @@ export const portfolioData = {
       color: "#DC2626",
       bgSoft: "#FEF2F2",
       iconType: "redis",
-      description: "Mise en cache haute performance, sessions utilisateur, optimisation des requêtes"
+      description:
+        "Mise en cache haute performance, sessions utilisateur, optimisation des requêtes",
     },
 
     // DevOps & Tools
@@ -215,7 +230,8 @@ export const portfolioData = {
       bgSoft: "#EFF6FF",
       iconType: "docker",
       featured: true,
-      description: "Dockerfile multi-stage, conteneurisation des microservices, environnements reproductibles"
+      description:
+        "Dockerfile multi-stage, conteneurisation des microservices, environnements reproductibles",
     },
     {
       name: "Docker Compose",
@@ -224,7 +240,8 @@ export const portfolioData = {
       color: "#1E40AF",
       bgSoft: "#EEF2FF",
       iconType: "dockercompose",
-      description: "Orchestration locale (App + MySQL + Redis), configuration des réseaux et volumes"
+      description:
+        "Orchestration locale (App + MySQL + Redis), configuration des réseaux et volumes",
     },
     {
       name: "CI/CD & GitHub Actions",
@@ -234,7 +251,8 @@ export const portfolioData = {
       bgSoft: "#F0F7FF",
       iconType: "cicd",
       featured: true,
-      description: "Automatisation des tests, build Maven et validation continue des pull requests"
+      description:
+        "Automatisation des tests, build Maven et validation continue des pull requests",
     },
     {
       name: "Git & GitHub",
@@ -243,7 +261,8 @@ export const portfolioData = {
       color: "#181717",
       bgSoft: "#F8FAFC",
       iconType: "github",
-      description: "Gestion des branches, revues de code, collaboration Git Flow"
+      description:
+        "Gestion des branches, revues de code, collaboration Git Flow",
     },
     {
       name: "Swagger & OpenAPI",
@@ -252,7 +271,8 @@ export const portfolioData = {
       color: "#85EA2D",
       bgSoft: "#F7FEE7",
       iconType: "swagger",
-      description: "Documentation interactive des endpoints et tests d'APIs en direct"
+      description:
+        "Documentation interactive des endpoints et tests d'APIs en direct",
     },
     {
       name: "Postman",
@@ -261,7 +281,8 @@ export const portfolioData = {
       color: "#FF6C37",
       bgSoft: "#FFF7ED",
       iconType: "postman",
-      description: "Collections de requêtes, variables d'environnement, tests automatisés"
+      description:
+        "Collections de requêtes, variables d'environnement, tests automatisés",
     },
 
     // Management & Tests
@@ -273,7 +294,8 @@ export const portfolioData = {
       bgSoft: "#F0FDF4",
       iconType: "junit",
       featured: true,
-      description: "Tests unitaires et d'intégration des controllers, services et repositories"
+      description:
+        "Tests unitaires et d'intégration des controllers, services et repositories",
     },
     {
       name: "Agile & Scrum",
@@ -282,7 +304,8 @@ export const portfolioData = {
       color: "#6366F1",
       bgSoft: "#EEF2FF",
       iconType: "agile",
-      description: "Sprints, Daily standups, User Stories, gestion des backlogs (Trello & Jira)"
+      description:
+        "Sprints, Daily standups, User Stories, gestion des backlogs (Trello & Jira)",
     },
     {
       name: "UML & Modélisation",
@@ -291,7 +314,8 @@ export const portfolioData = {
       color: "#9333EA",
       bgSoft: "#FAF5FF",
       iconType: "uml",
-      description: "Diagrammes de classes, cas d'utilisation, séquences et architecture modulaire"
+      description:
+        "Diagrammes de classes, cas d'utilisation, séquences et architecture modulaire",
     },
     {
       name: "Trello & Jira",
@@ -300,8 +324,9 @@ export const portfolioData = {
       color: "#0052CC",
       bgSoft: "#EFF6FF",
       iconType: "jira",
-      description: "Suivi des tâches, organisation des sprints et gestion des tickets d'incidents"
-    }
+      description:
+        "Suivi des tâches, organisation des sprints et gestion des tickets d'incidents",
+    },
   ],
 
   projects: [
@@ -311,11 +336,14 @@ export const portfolioData = {
       subtitle: "API REST de gestion logistique et suivi des livraisons",
       type: "Application d'Entreprise & API REST",
       badge: "Système Logistique Temps Réel",
-      coverGradient: "linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%)",
+      coverGradient:
+        "linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%)",
       accentColor: "#6366f1",
       githubUrl: "https://github.com/imane-ramadane/FleetFlow",
-      summary: "Conception d’une solution de gestion logistique centralisant le suivi des livraisons, l’affectation des ressources et le contrôle des opérations en temps réel.",
-      fullDescription: "FleetFlow est une plateforme backend complète dédiée à la logistique moderne. Elle permet la centralisation et le suivi en direct de l'ensemble des livraisons, la gestion intelligente des véhicules et conducteurs, ainsi que l'affectation optimale des itinéraires. L'application garantit une haute sécurité des accès par JWT et une traçabilité totale des flux de marchandises.",
+      summary:
+        "Conception d’une solution de gestion logistique centralisant le suivi des livraisons, l’affectation des ressources et le contrôle des opérations en temps réel.",
+      fullDescription:
+        "FleetFlow est une plateforme backend complète dédiée à la logistique moderne. Elle permet la centralisation et le suivi en direct de l'ensemble des livraisons, la gestion intelligente des véhicules et conducteurs, ainsi que l'affectation optimale des itinéraires. L'application garantit une haute sécurité des accès par JWT et une traçabilité totale des flux de marchandises.",
       features: [
         "Suivi en temps réel de l'état des livraisons et des flottes de transport",
         "Affectation dynamique et intelligente des ressources (véhicules, chauffeurs, dépôts)",
@@ -324,7 +352,7 @@ export const portfolioData = {
         "Mappage ultra-rapide des DTOs avec MapStruct et boilerplate réduit grâce à Lombok",
         "Pipeline CI/CD complet avec GitHub Actions pour le build Maven et les tests automatisés",
         "Conteneurisation complète avec Docker et Docker Compose (API + Base MySQL)",
-        "Documentation interactive OpenAPI 3 / Swagger pour les développeurs frontend"
+        "Documentation interactive OpenAPI 3 / Swagger pour les développeurs frontend",
       ],
       technologies: [
         { name: "Java 21", bg: "#FEE2E2", color: "#B91C1C" },
@@ -340,15 +368,32 @@ export const portfolioData = {
         { name: "Docker", bg: "#DBEAFE", color: "#1D4ED8" },
         { name: "Docker Compose", bg: "#E0E7FF", color: "#3730A3" },
         { name: "GitHub Actions", bg: "#F1F5F9", color: "#334155" },
-        { name: "Swagger", bg: "#ECFCCB", color: "#4D7C0F" }
+        { name: "Swagger", bg: "#ECFCCB", color: "#4D7C0F" },
       ],
       endpoints: [
-        { method: "POST", path: "/api/v1/auth/login", desc: "Authentification et génération de jeton JWT" },
-        { method: "GET", path: "/api/v1/deliveries/live", desc: "Flux de suivi des livraisons en cours" },
-        { method: "POST", path: "/api/v1/fleets/assign", desc: "Affectation automatique de ressources logistiques" },
-        { method: "GET", path: "/api/v1/stats/performance", desc: "Statistiques et indicateurs clés de livraison" }
+        {
+          method: "POST",
+          path: "/api/v1/auth/login",
+          desc: "Authentification et génération de jeton JWT",
+        },
+        {
+          method: "GET",
+          path: "/api/v1/deliveries/live",
+          desc: "Flux de suivi des livraisons en cours",
+        },
+        {
+          method: "POST",
+          path: "/api/v1/fleets/assign",
+          desc: "Affectation automatique de ressources logistiques",
+        },
+        {
+          method: "GET",
+          path: "/api/v1/stats/performance",
+          desc: "Statistiques et indicateurs clés de livraison",
+        },
       ],
-      architecture: "Clean Architecture en couches (Controller -> Service -> Repository -> Entity) avec DTOs découplés via MapStruct et validation Bean Validation."
+      architecture:
+        "Clean Architecture en couches (Controller -> Service -> Repository -> Entity) avec DTOs découplés via MapStruct et validation Bean Validation.",
     },
     {
       id: "healthcare-plus",
@@ -356,11 +401,14 @@ export const portfolioData = {
       subtitle: "API REST de Gestion Médicale Sécurisée & Optimisée",
       type: "Système de Santé & Gestion Médicale",
       badge: "Haute Disponibilité & Données Sensibles",
-      coverGradient: "linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #4338ca 100%)",
+      coverGradient:
+        "linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #4338ca 100%)",
       accentColor: "#0284c7",
       githubUrl: "https://github.com/imane-ramadane/HealthCare-Plus",
-      summary: "Développement d’une plateforme de gestion médicale permettant d’organiser le suivi des patients, des consultations et des dossiers médicaux sécurisés.",
-      fullDescription: "HealthCare+ est une API REST d'excellence conçue pour le secteur médical. Elle structure l'historique médical des patients, la prise de rendez-vous et la gestion des ordonnances avec un strict respect de la confidentialité des données de santé. Grâce à l'intégration d'un cache Redis, les consultations répétées et les plannings sont restitués de manière instantanée.",
+      summary:
+        "Développement d’une plateforme de gestion médicale permettant d’organiser le suivi des patients, des consultations et des dossiers médicaux sécurisés.",
+      fullDescription:
+        "HealthCare+ est une API REST d'excellence conçue pour le secteur médical. Elle structure l'historique médical des patients, la prise de rendez-vous et la gestion des ordonnances avec un strict respect de la confidentialité des données de santé. Grâce à l'intégration d'un cache Redis, les consultations répétées et les plannings sont restitués de manière instantanée.",
       features: [
         "Dossier médical patient centralisé et sécurisé (antécédents, diagnostics, prescriptions)",
         "Gestion fluide du calendrier des consultations et disponibilités des praticiens",
@@ -369,7 +417,7 @@ export const portfolioData = {
         "Gestion automatisée des versions de base de données avec Flyway",
         "Architecture robuste sous Docker pour un déploiement instantané et scalable",
         "Suite complète de tests unitaires et d'intégration avec JUnit et Mockito",
-        "Documentation interactive Swagger pour l'interfaçage avec les applications web & mobiles"
+        "Documentation interactive Swagger pour l'interfaçage avec les applications web & mobiles",
       ],
       technologies: [
         { name: "Java 21", bg: "#FEE2E2", color: "#B91C1C" },
@@ -383,15 +431,32 @@ export const portfolioData = {
         { name: "Docker", bg: "#DBEAFE", color: "#1D4ED8" },
         { name: "GitHub Actions", bg: "#F1F5F9", color: "#334155" },
         { name: "Swagger", bg: "#ECFCCB", color: "#4D7C0F" },
-        { name: "JUnit", bg: "#DCFCE7", color: "#166534" }
+        { name: "JUnit", bg: "#DCFCE7", color: "#166534" },
       ],
       endpoints: [
-        { method: "POST", path: "/api/v1/auth/register-doctor", desc: "Enregistrement sécurisé du personnel soignant" },
-        { method: "GET", path: "/api/v1/patients/{id}/record", desc: "Consultation du dossier médical (accès restreint)" },
-        { method: "POST", path: "/api/v1/appointments/book", desc: "Prise de rendez-vous en temps réel avec cache Redis" },
-        { method: "GET", path: "/api/v1/prescriptions/verify", desc: "Validation et vérification des ordonnances" }
+        {
+          method: "POST",
+          path: "/api/v1/auth/register-doctor",
+          desc: "Enregistrement sécurisé du personnel soignant",
+        },
+        {
+          method: "GET",
+          path: "/api/v1/patients/{id}/record",
+          desc: "Consultation du dossier médical (accès restreint)",
+        },
+        {
+          method: "POST",
+          path: "/api/v1/appointments/book",
+          desc: "Prise de rendez-vous en temps réel avec cache Redis",
+        },
+        {
+          method: "GET",
+          path: "/api/v1/prescriptions/verify",
+          desc: "Validation et vérification des ordonnances",
+        },
       ],
-      architecture: "Architecture Modulaire Spring Boot 3 avec couche de mise en cache Redis, sécurité par filtres personnalisés et persistance JPA sur MySQL."
+      architecture:
+        "Architecture Modulaire Spring Boot 3 avec couche de mise en cache Redis, sécurité par filtres personnalisés et persistance JPA sur MySQL.",
     },
     {
       id: "fullstack-portal",
@@ -399,31 +464,43 @@ export const portfolioData = {
       subtitle: "Frontend React moderne & connecteurs d'APIs REST",
       type: "Application Web Full Stack",
       badge: "Interface Réactive & Composants Modernes",
-      coverGradient: "linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f43f5e 100%)",
+      coverGradient:
+        "linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f43f5e 100%)",
       accentColor: "#8b5cf6",
       githubUrl: "https://github.com/imane-ramadane/portfolio-fullstack",
-      summary: "Création d'interfaces utilisateur modernes, réactives et performantes connectées à des API REST Spring Boot pour la gestion des opérations.",
-      fullDescription: "Développement d'interfaces web ergonomiques tirant parti de React et du state management moderne. Intégration complète avec les backends Spring Boot, gestion des flux asynchrones, composants réutilisables et expérience utilisateur optimisée sur tous les appareils.",
+      summary:
+        "Création d'interfaces utilisateur modernes, réactives et performantes connectées à des API REST Spring Boot pour la gestion des opérations.",
+      fullDescription:
+        "Développement d'interfaces web ergonomiques tirant parti de React et du state management moderne. Intégration complète avec les backends Spring Boot, gestion des flux asynchrones, composants réutilisables et expérience utilisateur optimisée sur tous les appareils.",
       features: [
         "Composants React modulaires et réutilisables avec gestion d'états réactifs",
         "Design élégant et responsive adapté aux écrans mobiles, tablettes et ordinateurs",
         "Consommation sécurisée des APIs REST avec gestion des tokens JWT et intercepteurs",
         "Filtrage dynamique en temps réel, recherche instantanée et visualisations de données",
-        "Conception axée sur l'expérience utilisateur (UX) et l'accessibilité"
+        "Conception axée sur l'expérience utilisateur (UX) et l'accessibilité",
       ],
       technologies: [
         { name: "React js", bg: "#E0F2FE", color: "#0369A1" },
         { name: "JavaScript ES6+", bg: "#FEF9C3", color: "#854D0E" },
         { name: "Bootstrap 5", bg: "#F3E8FF", color: "#6B21A8" },
         { name: "REST Client", bg: "#DCFCE7", color: "#166534" },
-        { name: "Responsive UI", bg: "#FEE2E2", color: "#991B1B" }
+        { name: "Responsive UI", bg: "#FEE2E2", color: "#991B1B" },
       ],
       endpoints: [
-        { method: "GET", path: "/api/v1/analytics/overview", desc: "Chargement du tableau de bord réactif" },
-        { method: "POST", path: "/api/v1/contact/send", desc: "Envoi et notification des messages utilisateurs" }
+        {
+          method: "GET",
+          path: "/api/v1/analytics/overview",
+          desc: "Chargement du tableau de bord réactif",
+        },
+        {
+          method: "POST",
+          path: "/api/v1/contact/send",
+          desc: "Envoi et notification des messages utilisateurs",
+        },
       ],
-      architecture: "Architecture SPA (Single Page Application) avec découpage par composants atomiques, hooks personnalisés et connexion API."
-    }
+      architecture:
+        "Architecture SPA (Single Page Application) avec découpage par composants atomiques, hooks personnalisés et connexion API.",
+    },
   ],
 
   education: [
@@ -433,28 +510,31 @@ export const portfolioData = {
       institution: "l’École Numérique Ahmed Al Hansali",
       location: "Beni Mellal, Maroc",
       badge: "Formation Supérieure",
-      description: "Formation avancée axée sur l'ingénierie web moderne, l'architecture des applications d'entreprise, les microservices, les technologies React et Spring Boot, ainsi que les pratiques DevOps et CI/CD.",
+      description:
+        "Formation avancée axée sur l'ingénierie web moderne, l'architecture des applications d'entreprise, les microservices, les technologies React et Spring Boot, ainsi que les pratiques DevOps et CI/CD.",
       highlights: [
         "Architectures logicielles modernes & Microservices",
         "Développement Full-Stack avancé (React & Spring Boot)",
         "Conteneurisation Docker, pipelines CI/CD et déploiement continu",
-        "Méthodologies agiles (Scrum, Kanban) et gestion de projet d'équipe"
-      ]
+        "Méthodologies agiles (Scrum, Kanban) et gestion de projet d'équipe",
+      ],
     },
     {
       period: "2023 – 2025",
       degree: "Technicienne Spécialisée en Développement Digital",
-      institution: "Institut Spécialisé en Nouvelles Technologies de l'Information et de la Communication (ISNTIC)",
+      institution:
+        "Institut Spécialisé en Nouvelles Technologies de l'Information et de la Communication (ISNTIC)",
       location: "Beni Mellal, Maroc",
       badge: "Diplôme Spécialisé",
-      description: "Formation approfondie en développement logiciel, conception de bases de données relationnelles et NoSQL, modélisation UML, algorithmique avancée et programmation orientée objet.",
+      description:
+        "Formation approfondie en développement logiciel, conception de bases de données relationnelles et NoSQL, modélisation UML, algorithmique avancée et programmation orientée objet.",
       highlights: [
         "Conception et modélisation orientée objet (UML, Merise)",
         "Programmation Java, JavaScript et frameworks web",
         "Administration et optimisation des bases de données MySQL",
-        "Qualité logicielle, tests et bonnes pratiques de codage"
-      ]
-    }
+        "Qualité logicielle, tests et bonnes pratiques de codage",
+      ],
+    },
   ],
 
   certifications: [
@@ -463,9 +543,10 @@ export const portfolioData = {
       issuer: "Programme d’Innovation & Entrepreneuriat",
       period: "2023 – 2025",
       icon: "Award",
-      description: "Formation intensive en gestion de projets innovants, méthodologie Design Thinking, résolution créative de problèmes et création de valeur entrepreneuriale.",
-      badge: "Innovation & Business"
-    }
+      description:
+        "Formation intensive en gestion de projets innovants, méthodologie Design Thinking, résolution créative de problèmes et création de valeur entrepreneuriale.",
+      badge: "Innovation & Business",
+    },
   ],
 
   languages: [
@@ -474,22 +555,22 @@ export const portfolioData = {
       level: "Langue Maternelle",
       proficiency: "Natif",
       percentage: 100,
-      flag: "🇲🇦"
+      flag: "🇲🇦",
     },
     {
       name: "Français",
       level: "Courant / Professionnel",
       proficiency: "Courant",
       percentage: 90,
-      flag: "🇫🇷"
+      flag: "🇫🇷",
     },
     {
       name: "Anglais",
       level: "Technique & Professionnel",
       proficiency: "Intermédiaire",
       percentage: 75,
-      flag: "🇬🇧"
-    }
+      flag: "🇬🇧",
+    },
   ],
 
   contactInfo: {
@@ -504,6 +585,6 @@ export const portfolioData = {
     github: "https://github.com/imane-ramadane",
     githubDisplay: "github.com/imane-ramadane",
     availability: "Immédiate",
-    contractTypes: "CDI, CDD, Stage pré-embauche, Freelance"
-  }
+    contractTypes: "CDI, CDD, Stage pré-embauche, Freelance",
+  },
 };
