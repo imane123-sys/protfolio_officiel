@@ -1,13 +1,13 @@
-import React from 'react';
-import { ArrowUp, Mail, Phone } from 'lucide-react';
-import { portfolioData } from '../data/portfolioData';
-import { SocialGithubIcon, SocialLinkedinIcon } from './TechIcons';
+import React from "react";
+import { ArrowUp, Mail, Phone } from "lucide-react";
+import { portfolioData } from "../data/portfolioData";
+import { SocialGithubIcon, SocialLinkedinIcon } from "./TechIcons";
 
 export const Footer = () => {
   const { personal } = portfolioData;
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -16,7 +16,10 @@ export const Footer = () => {
         <div className="footer-inner">
           {/* Left Brand */}
           <div className="flex items-center gap-3">
-            <div className="logo-badge" style={{ width: '38px', height: '38px', fontSize: '0.95rem' }}>
+            <div
+              className="logo-badge"
+              style={{ width: "38px", height: "38px", fontSize: "0.95rem" }}
+            >
               &lt;/&gt;
             </div>
             <div>
@@ -24,7 +27,7 @@ export const Footer = () => {
                 {personal.name}
               </div>
               <div className="text-xs text-slate-500 font-medium">
-                Développeuse Web Full Stack • {personal.locationShort}
+                Développeuse Web Full Stack
               </div>
             </div>
           </div>
@@ -36,7 +39,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
               className="social-squircle"
-              style={{ width: '36px', height: '36px' }}
+              style={{ width: "36px", height: "36px" }}
               aria-label="GitHub"
             >
               <SocialGithubIcon size={17} />
@@ -47,7 +50,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
               className="social-squircle"
-              style={{ width: '36px', height: '36px' }}
+              style={{ width: "36px", height: "36px" }}
               aria-label="LinkedIn"
             >
               <SocialLinkedinIcon size={17} />
@@ -56,7 +59,7 @@ export const Footer = () => {
             <a
               href={`mailto:${personal.email}`}
               className="social-squircle"
-              style={{ width: '36px', height: '36px' }}
+              style={{ width: "36px", height: "36px" }}
               aria-label="Email"
             >
               <Mail size={17} />
@@ -65,7 +68,7 @@ export const Footer = () => {
             <a
               href={`tel:${personal.phone}`}
               className="social-squircle"
-              style={{ width: '36px', height: '36px' }}
+              style={{ width: "36px", height: "36px" }}
               aria-label="Téléphone"
             >
               <Phone size={17} />
@@ -75,7 +78,8 @@ export const Footer = () => {
           {/* Right Action & Copyright */}
           <div className="flex items-center gap-4">
             <span className="footer-copy">
-              © {new Date().getFullYear()} {personal.name}. Tous droits réservés.
+              © {new Date().getFullYear()} {personal.name}. Tous droits
+              réservés.
             </span>
 
             <button

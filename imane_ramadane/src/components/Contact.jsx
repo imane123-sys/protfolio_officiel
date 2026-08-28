@@ -1,17 +1,25 @@
-import React, { useState } from 'react';
-import { Mail, Phone, Send, MapPin, CheckCircle2, MessageSquare, Sparkles } from 'lucide-react';
-import confetti from 'canvas-confetti';
-import { portfolioData } from '../data/portfolioData';
-import { SocialGithubIcon, SocialLinkedinIcon } from './TechIcons';
+import React, { useState } from "react";
+import {
+  Mail,
+  Phone,
+  Send,
+  MapPin,
+  CheckCircle2,
+  MessageSquare,
+  Sparkles,
+} from "lucide-react";
+import confetti from "canvas-confetti";
+import { portfolioData } from "../data/portfolioData";
+import { SocialGithubIcon, SocialLinkedinIcon } from "./TechIcons";
 
 export const Contact = ({ onCopyToast }) => {
   const { contactInfo } = portfolioData;
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -35,12 +43,12 @@ export const Contact = ({ onCopyToast }) => {
       confetti({
         particleCount: 80,
         spread: 70,
-        origin: { y: 0.6 }
+        origin: { y: 0.6 },
       });
 
       // Reset after some time
       setTimeout(() => {
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setFormData({ name: "", email: "", subject: "", message: "" });
         setSubmitted(false);
       }, 5000);
     }, 900);
@@ -55,7 +63,8 @@ export const Contact = ({ onCopyToast }) => {
           <div className="connect-intro-col">
             <h3 className="connect-main-title">Let's Connect</h3>
             <p className="connect-intro-sub">
-              Je suis toujours ouverte aux opportunités professionnelles, projets stimulants et collaborations d'envergure.
+              Je suis toujours ouverte aux opportunités professionnelles,
+              projets stimulants et collaborations d'envergure.
             </p>
           </div>
 
@@ -86,7 +95,9 @@ export const Contact = ({ onCopyToast }) => {
             </div>
             <div>
               <div className="connect-item-name">LinkedIn</div>
-              <div className="connect-item-val">{contactInfo.linkedinDisplay}</div>
+              <div className="connect-item-val">
+                {contactInfo.linkedinDisplay}
+              </div>
             </div>
           </a>
 
@@ -102,7 +113,9 @@ export const Contact = ({ onCopyToast }) => {
             </div>
             <div>
               <div className="connect-item-name">GitHub</div>
-              <div className="connect-item-val">{contactInfo.githubDisplay}</div>
+              <div className="connect-item-val">
+                {contactInfo.githubDisplay}
+              </div>
             </div>
           </a>
 
@@ -140,9 +153,12 @@ export const Contact = ({ onCopyToast }) => {
                 <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mb-4">
                   <CheckCircle2 size={36} />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">Message Envoyé avec Succès !</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">
+                  Message Envoyé avec Succès !
+                </h3>
                 <p className="text-slate-600 text-sm max-w-sm">
-                  Merci {formData.name || 'beaucoup'} pour votre message. Je vous contacterai très prochainement.
+                  Merci {formData.name || "beaucoup"} pour votre message. Je
+                  vous contacterai très prochainement.
                 </p>
               </div>
             ) : (
@@ -155,7 +171,9 @@ export const Contact = ({ onCopyToast }) => {
                       required
                       placeholder="Ex: Jean Dupont"
                       value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({ ...formData, name: e.target.value })
+                      }
                       className="form-input"
                     />
                   </div>
@@ -167,7 +185,9 @@ export const Contact = ({ onCopyToast }) => {
                       required
                       placeholder="Ex: jean@entreprise.com"
                       value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({ ...formData, email: e.target.value })
+                      }
                       className="form-input"
                     />
                   </div>
@@ -179,7 +199,9 @@ export const Contact = ({ onCopyToast }) => {
                     type="text"
                     placeholder="Ex: Opportunité Développeuse Full Stack"
                     value={formData.subject}
-                    onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, subject: e.target.value })
+                    }
                     className="form-input"
                   />
                 </div>
@@ -191,7 +213,9 @@ export const Contact = ({ onCopyToast }) => {
                     required
                     placeholder="Bonjour Imane, nous avons une opportunité qui correspond à votre profil..."
                     value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, message: e.target.value })
+                    }
                     className="form-textarea resize-none"
                   ></textarea>
                 </div>

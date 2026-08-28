@@ -12,9 +12,9 @@ export const portfolioData = {
     location: "Beni Mellal, Maroc",
     locationShort: "Beni Mellal",
     github: "https://github.com/imane123-sys",
-    githubUsername: "imane-ramadane",
+    githubUsername: "imane123-sys",
     linkedin: "https://www.linkedin.com/in/imane-ramadane-3292a6312",
-    linkedinUsername: "in/imane-ramadane",
+    linkedinUsername: "imane-ramadane-3292a6312",
     cvPdfUrl: "/Ramadane-Imane-CV1.pdf",
     cvFileName: "Ramadane-Imane-CV1.pdf",
     tagline:
@@ -550,6 +550,15 @@ export const portfolioData = {
         "Formation intensive en gestion de projets innovants, méthodologie Design Thinking, résolution créative de problèmes et création de valeur entrepreneuriale.",
       badge: "Innovation & Business",
     },
+    {
+      title: "Certificat d'Expertise dans Excel",
+      issuer: "Certification Bureautique & Analyse de Données",
+      period: "2025",
+      icon: "Award",
+      description:
+        "Maîtrise avancée du tableur Excel : formules complexes, tableaux croisés dynamiques, analyse de données, tableaux de bord et automatisation de processus.",
+      badge: "Expertise Excel",
+    },
   ],
 
   languages: [
@@ -579,14 +588,14 @@ export const portfolioData = {
   contactInfo: {
     phone: "0634808402",
     displayPhone: "+212 6 34 80 84 02",
-    email: "ramadaneimane36@gmail.com",
+    email: "ramadaneimane8@gmail.com",
     fallbackEmail: "imane.ramadane.dev@gmail.com",
     city: "Beni Mellal",
     country: "Maroc",
-    linkedin: "https://linkedin.com/in/imane-ramadane",
-    linkedinDisplay: "linkedin.com/in/imane-ramadane",
-    github: "https://github.com/imane-ramadane",
-    githubDisplay: "github.com/imane-ramadane",
+    linkedin: "https://www.linkedin.com/in/imane-ramadane-3292a6312",
+    linkedinDisplay: "linkedin.com/in/imane-ramadane-3292a6312",
+    github: "https://github.com/imane123-sys",
+    githubDisplay: "github.com/imane123-sys",
     availability: "Immédiate",
     contractTypes: "CDI, CDD, Stage pré-embauche, Freelance",
   },

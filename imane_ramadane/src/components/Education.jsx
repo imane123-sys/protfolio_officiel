@@ -80,19 +80,21 @@ export const Education = () => {
               </div>
             </div>
 
-            {certifications.map((cert, index) => (
-              <div key={index} className="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
-                <div className="flex items-center justify-between gap-2 mb-2">
-                  <span className="text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full">
-                    {cert.badge}
-                  </span>
-                  <span className="text-xs font-semibold text-slate-400">{cert.period}</span>
+            <div className="space-y-4">
+              {certifications.map((cert, index) => (
+                <div key={index} className="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full">
+                      {cert.badge}
+                    </span>
+                    <span className="text-xs font-semibold text-slate-400">{cert.period}</span>
+                  </div>
+                  <h4 className="font-bold text-slate-900 text-base mb-1">{cert.title}</h4>
+                  <p className="text-xs text-slate-500 font-medium mb-3">{cert.issuer}</p>
+                  <p className="text-sm text-slate-600 leading-relaxed">{cert.description}</p>
                 </div>
-                <h4 className="font-bold text-slate-900 text-base mb-1">{cert.title}</h4>
-                <p className="text-xs text-slate-500 font-medium mb-3">{cert.issuer}</p>
-                <p className="text-sm text-slate-600 leading-relaxed">{cert.description}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* Languages Card */}

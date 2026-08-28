@@ -26,7 +26,7 @@ export const Hero = ({ onNavigate, onCopyToast }) => {
             <h1 className="hero-heading">
               {personal.name.split(' ')[0]} {personal.name.split(' ')[1]}
               <br />
-              Full Stack <span className="gradient-text">Developer</span>
+              Full Stack <span className="gradient-text">Développeuse</span>
             </h1>
 
             <p className="hero-subtitle">
@@ -96,11 +96,6 @@ export const Hero = ({ onNavigate, onCopyToast }) => {
               >
                 <Phone size={19} />
               </a>
-
-              <div className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium ml-2 px-3 py-1.5 rounded-full bg-slate-100/80">
-                <MapPin size={13} className="text-indigo-600" />
-                <span>{personal.locationShort}</span>
-              </div>
             </div>
           </div>
 
