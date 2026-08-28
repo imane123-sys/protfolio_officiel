@@ -4,31 +4,35 @@ export const portfolioData = {
     firstName: "Imane",
     lastName: "Ramadane",
     role: "Développeuse Web Full Stack",
-    roleHighlight: "Full Stack Developer",
+    roleHighlight: "Full Stack Développeuse",
     phone: "0634808402",
     phoneFormatted: "+212 6 34 80 84 02",
-    email: "ramadaneimane36@gmail.com",
+    email: "ramadaneimane8@gmail.com",
     fallbackEmail: "imane.ramadane.dev@gmail.com",
     location: "Beni Mellal, Maroc",
     locationShort: "Beni Mellal",
-    github: "https://github.com/imane-ramadane",
+    github: "https://github.com/imane123-sys",
     githubUsername: "imane-ramadane",
-    linkedin: "https://linkedin.com/in/imane-ramadane",
+    linkedin: "https://www.linkedin.com/in/imane-ramadane-3292a6312",
     linkedinUsername: "in/imane-ramadane",
     cvPdfUrl: "/Ramadane-Imane-CV1.pdf",
     cvFileName: "Ramadane-Imane-CV1.pdf",
     tagline:
-      "Je conçois des applications web performantes, sécurisées et intuitives avec React & Spring Boot.",
-    bio: "Développeuse web full-stack, spécialisée dans la création d’applications modernes avec React, Spring Boot et MySQL. Motivée, autonome et curieuse, je recherche une opportunité pour apporter de la valeur et évoluer professionnellement.",
+      "Je conçois des applications web performantes, sécurisées et intuitives avec React js & Spring Boot.",
+    bio: "Développeuse web full-stack, spécialisée dans la création d’applications modernes avec React js, Spring Boot et MySQL. Motivée, autonome et curieuse, je recherche une opportunité pour apporter de la valeur et évoluer professionnellement.",
     extendedBio: [
-      "Je suis Développeuse Full Stack React & Spring Boot, je conçois des applications web complètes, de l'interface dynamique à l'architecture back-end sécurisée. Propulsée par des projets concrets, j’allie code propre et performance. Prête à intégrer votre équipe pour transformer vos besoins techniques en solutions prêtes pour la production !",
+      "Je suis Développeuse Full Stack React js& Spring Boot, je conçois des applications web complètes, de l'interface dynamique à l'architecture back-end sécurisée. Propulsée par des projets concrets, j’allie code propre et performance. Prête à intégrer votre équipe pour transformer vos besoins techniques en solutions prêtes pour la production !",
     ],
     status: "Disponible pour opportunités (CDI, Stage, Alternance)",
     statusShort: "Prête pour de nouveaux défis",
   },
 
   stats: [
-    { label: "Spécialisation", value: "Spring Boot & React", icon: "Layers" },
+    {
+      label: "Spécialisation",
+      value: "Spring Boot & React js",
+      icon: "Layers",
+    },
     { label: "Qualité & Tests", value: "JUnit & CI/CD", icon: "ShieldCheck" },
     {
       label: "Bases de Données",
@@ -43,7 +47,6 @@ export const portfolioData = {
     code: `const developer = {
   nom: "Ramadane Imane",
   role: "Développeuse Web Full Stack",
-  localisation: "Beni Mellal, Maroc",
   specialites: ["Spring Boot 3", "React.js", "MySQL", "Docker", "REST APIs"],
   securite: ["Spring Security", "JWT", "RBAC"],
   devops: ["Docker Compose", "GitHub Actions CI/CD"],
@@ -339,7 +342,7 @@ export const portfolioData = {
       coverGradient:
         "linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%)",
       accentColor: "#6366f1",
-      githubUrl: "https://github.com/imane-ramadane/FleetFlow",
+      githubUrl: "https://github.com/imane123-sys/FleetFlow.git",
       summary:
         "Conception d’une solution de gestion logistique centralisant le suivi des livraisons, l’affectation des ressources et le contrôle des opérations en temps réel.",
       fullDescription:
@@ -404,7 +407,7 @@ export const portfolioData = {
       coverGradient:
         "linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #4338ca 100%)",
       accentColor: "#0284c7",
-      githubUrl: "https://github.com/imane-ramadane/HealthCare-Plus",
+      githubUrl: "https://github.com/imane123-sys/HealthCare_S.git",
       summary:
         "Développement d’une plateforme de gestion médicale permettant d’organiser le suivi des patients, des consultations et des dossiers médicaux sécurisés.",
       fullDescription:
@@ -458,49 +461,49 @@ export const portfolioData = {
       architecture:
         "Architecture Modulaire Spring Boot 3 avec couche de mise en cache Redis, sécurité par filtres personnalisés et persistance JPA sur MySQL.",
     },
-    {
-      id: "fullstack-portal",
-      title: "Plateforme Web & Dashboard Interactif",
-      subtitle: "Frontend React moderne & connecteurs d'APIs REST",
-      type: "Application Web Full Stack",
-      badge: "Interface Réactive & Composants Modernes",
-      coverGradient:
-        "linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f43f5e 100%)",
-      accentColor: "#8b5cf6",
-      githubUrl: "https://github.com/imane-ramadane/portfolio-fullstack",
-      summary:
-        "Création d'interfaces utilisateur modernes, réactives et performantes connectées à des API REST Spring Boot pour la gestion des opérations.",
-      fullDescription:
-        "Développement d'interfaces web ergonomiques tirant parti de React et du state management moderne. Intégration complète avec les backends Spring Boot, gestion des flux asynchrones, composants réutilisables et expérience utilisateur optimisée sur tous les appareils.",
-      features: [
-        "Composants React modulaires et réutilisables avec gestion d'états réactifs",
-        "Design élégant et responsive adapté aux écrans mobiles, tablettes et ordinateurs",
-        "Consommation sécurisée des APIs REST avec gestion des tokens JWT et intercepteurs",
-        "Filtrage dynamique en temps réel, recherche instantanée et visualisations de données",
-        "Conception axée sur l'expérience utilisateur (UX) et l'accessibilité",
-      ],
-      technologies: [
-        { name: "React js", bg: "#E0F2FE", color: "#0369A1" },
-        { name: "JavaScript ES6+", bg: "#FEF9C3", color: "#854D0E" },
-        { name: "Bootstrap 5", bg: "#F3E8FF", color: "#6B21A8" },
-        { name: "REST Client", bg: "#DCFCE7", color: "#166534" },
-        { name: "Responsive UI", bg: "#FEE2E2", color: "#991B1B" },
-      ],
-      endpoints: [
-        {
-          method: "GET",
-          path: "/api/v1/analytics/overview",
-          desc: "Chargement du tableau de bord réactif",
-        },
-        {
-          method: "POST",
-          path: "/api/v1/contact/send",
-          desc: "Envoi et notification des messages utilisateurs",
-        },
-      ],
-      architecture:
-        "Architecture SPA (Single Page Application) avec découpage par composants atomiques, hooks personnalisés et connexion API.",
-    },
+    // {
+    //   id: "fullstack-portal",
+    //   title: "Plateforme Web & Dashboard Interactif",
+    //   subtitle: "Frontend React moderne & connecteurs d'APIs REST",
+    //   type: "Application Web Full Stack",
+    //   badge: "Interface Réactive & Composants Modernes",
+    //   coverGradient:
+    //     "linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f43f5e 100%)",
+    //   accentColor: "#8b5cf6",
+    //   githubUrl: "https://github.com/imane-ramadane/portfolio-fullstack",
+    //   summary:
+    //     "Création d'interfaces utilisateur modernes, réactives et performantes connectées à des API REST Spring Boot pour la gestion des opérations.",
+    //   fullDescription:
+    //     "Développement d'interfaces web ergonomiques tirant parti de React et du state management moderne. Intégration complète avec les backends Spring Boot, gestion des flux asynchrones, composants réutilisables et expérience utilisateur optimisée sur tous les appareils.",
+    //   features: [
+    //     "Composants React modulaires et réutilisables avec gestion d'états réactifs",
+    //     "Design élégant et responsive adapté aux écrans mobiles, tablettes et ordinateurs",
+    //     "Consommation sécurisée des APIs REST avec gestion des tokens JWT et intercepteurs",
+    //     "Filtrage dynamique en temps réel, recherche instantanée et visualisations de données",
+    //     "Conception axée sur l'expérience utilisateur (UX) et l'accessibilité",
+    //   ],
+    //   technologies: [
+    //     { name: "React js", bg: "#E0F2FE", color: "#0369A1" },
+    //     { name: "JavaScript ES6+", bg: "#FEF9C3", color: "#854D0E" },
+    //     { name: "Bootstrap 5", bg: "#F3E8FF", color: "#6B21A8" },
+    //     { name: "REST Client", bg: "#DCFCE7", color: "#166534" },
+    //     { name: "Responsive UI", bg: "#FEE2E2", color: "#991B1B" },
+    //   ],
+    //   endpoints: [
+    //     {
+    //       method: "GET",
+    //       path: "/api/v1/analytics/overview",
+    //       desc: "Chargement du tableau de bord réactif",
+    //     },
+    //     {
+    //       method: "POST",
+    //       path: "/api/v1/contact/send",
+    //       desc: "Envoi et notification des messages utilisateurs",
+    //     },
+    //   ],
+    //   architecture:
+    //     "Architecture SPA (Single Page Application) avec découpage par composants atomiques, hooks personnalisés et connexion API.",
+    // },
   ],
 
   education: [
